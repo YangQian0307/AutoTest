@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FrameDemo" />
+        <module name="InterfaceDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutoTest" target="1.8" />
+      <module name="Chapter10" target="1.8" />
+      <module name="Chapter5" target="1.5" />
+      <module name="Chapter9" target="1.8" />
+      <module name="FrameDemo" target="1.8" />
+      <module name="InterfaceDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chapter10" options="-parameters" />
+      <module name="Chapter9" options="-parameters" />
+      <module name="FrameDemo" options="-parameters" />
+      <module name="InterfaceDemo" options="-extdirs $PROJECT_DIR$/InterfaceDemo/lib" />
+    </option>
+  </component>
+</project>
